@@ -6,4 +6,15 @@ $breakpoints-up: (
     @media (min-width: map-get($breakpoints-up, $size)) {
         @content
     }
+};
+
+@mixin background-settings {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin flex-evenly {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }

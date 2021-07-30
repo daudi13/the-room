@@ -18,4 +18,107 @@ img {
 h1, h2, p, span, button {
   font-family: 'Spartan', sans-serif;
 }
+
+.product-narration {
+  width: 100%;
+}
+
+.product-narration .hero {
+  background-image: url("/images/mobile-image-hero-1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.product-narration .hero .desktop-nav {
+  width: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.product-narration .hero .desktop-nav .humberger {
+  cursor: pointer;
+  width: 20%;
+}
+
+.product-narration .hero .desktop-nav .logo {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: lowercase;
+  color: white;
+  width: 50%;
+}
+
+.product-narration .hero .desktop-nav .desktop-ul {
+  display: none;
+}
+
+.product-narration .hero .mobile-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  overflow-y: hidden;
+  -webkit-transition: height 0.7s ease;
+  transition: height 0.7s ease;
+}
+
+.product-narration .hero .mobile-nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+.product-narration .hero .mobile-nav ul .close {
+  margin-right: 35px;
+}
+
+.product-narration .hero .mobile-nav ul li {
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.product-narration .hero .narration-nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 17px;
+  background-color: black;
+}
+
+.product-narration .hero .narration-nav span {
+  display: inline-block;
+  margin: 0 15px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=main.css.map */
