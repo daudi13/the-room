@@ -19,6 +19,11 @@ h1, h2, p, span, button {
   font-family: 'Spartan', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .product-narration {
   width: 100%;
 }
@@ -119,6 +124,36 @@ h1, h2, p, span, button {
 .product-narration .hero .narration-nav span {
   display: inline-block;
   margin: 0 15px;
+  cursor: pointer;
+}
+
+.narration {
+  padding: 40px;
+  text-align: left;
+}
+
+.narration h1 {
+  width: 100%;
+  font-size: 25px;
+}
+
+.narration p {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #a1a1a1;
+}
+
+.narration .shop-now {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 7px;
+  margin-top: 50px;
+  padding: 5px 0;
+  color: #454545;
   cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
