@@ -50,6 +50,7 @@ a {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-top: 50px;
+  display: none;
 }
 
 .product-narration .hero .desktop-nav .humberger {
@@ -155,5 +156,40 @@ a {
   padding: 5px 0;
   color: #454545;
   cursor: pointer;
+}
+
+.abt .abt-preview {
+  background-image: url("/images/image-about-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.abt .abt-article {
+  padding: 55px 35px 75px;
+  text-align: left;
+}
+
+.abt .abt-article h2 {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.abt .abt-article p {
+  margin-top: 15px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #a1a1a1;
+}
+
+.abt .abt-white {
+  background-image: url("/images/image-about-light.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
 }
 /*# sourceMappingURL=main.css.map */
