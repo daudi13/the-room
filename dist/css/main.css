@@ -59,6 +59,12 @@ a {
   position: relative;
 }
 
+@media (min-width: 1024px) {
+  .product-narration .hero {
+    background-image: url("/images/desktop-image-hero-1.jpg");
+  }
+}
+
 @media (min-width: 1025px) {
   .product-narration .hero {
     background-image: url("/images/desktop-image-hero-1.jpg");
@@ -83,6 +89,12 @@ a {
           justify-content: space-evenly;
   padding-top: 50px;
   display: none;
+}
+
+@media (min-width: 1024px) {
+  .product-narration .hero .desktop-nav {
+    display: none;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -159,6 +171,12 @@ a {
   transition: height 0.7s ease;
 }
 
+@media (min-width: 1024px) {
+  .product-narration .hero .mobile-nav {
+    display: none;
+  }
+}
+
 @media (min-width: 1025px) {
   .product-narration .hero .mobile-nav {
     display: none;
@@ -216,6 +234,12 @@ a {
   text-align: left;
 }
 
+@media (min-width: 1024px) {
+  .product-narration .narration {
+    padding: 80px;
+  }
+}
+
 @media (min-width: 1025px) {
   .product-narration .narration {
     width: 45%;
@@ -227,6 +251,12 @@ a {
 .product-narration .narration h1 {
   width: 100%;
   font-size: 25px;
+}
+
+@media (min-width: 1024px) {
+  .product-narration .narration h1 br {
+    display: none;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -245,6 +275,12 @@ a {
   color: #a1a1a1;
 }
 
+@media (min-width: 1024px) {
+  .product-narration .narration p {
+    font-size: 20px;
+  }
+}
+
 .product-narration .narration .shop-now {
   display: inline-block;
   width: 100%;
@@ -255,6 +291,12 @@ a {
   padding: 5px 0;
   color: #454545;
   cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .product-narration .narration .shop-now {
+    font-size: 17px;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -286,9 +328,21 @@ a {
   height: 300px;
 }
 
+@media (min-width: 1024px) {
+  .abt .abt-preview {
+    height: 550px;
+  }
+}
+
 .abt .abt-article {
   padding: 55px 35px 75px;
   text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .abt .abt-article {
+    padding: 80px;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -305,6 +359,12 @@ a {
   letter-spacing: 5px;
 }
 
+@media (min-width: 1024px) {
+  .abt .abt-article h2 {
+    font-size: 17px;
+  }
+}
+
 @media (min-width: 1025px) {
   .abt .abt-article h2 {
     font-size: 14px;
@@ -319,6 +379,12 @@ a {
   color: #a1a1a1;
 }
 
+@media (min-width: 1024px) {
+  .abt .abt-article p {
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 1025px) {
   .abt .abt-article p {
     font-size: 12px;
@@ -331,5 +397,11 @@ a {
   background-size: cover;
   width: 100%;
   height: 300px;
+}
+
+@media (min-width: 1024px) {
+  .abt .abt-white {
+    height: 550px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
