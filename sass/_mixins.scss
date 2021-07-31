@@ -13,8 +13,20 @@ $breakpoints-up: (
     background-size: cover;
 }
 
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+
 @mixin flex-evenly {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }

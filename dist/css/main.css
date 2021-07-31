@@ -28,6 +28,20 @@ a {
   width: 100%;
 }
 
+@media (min-width: 1025px) {
+  .product-narration {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .product-narration .hero {
   background-image: url("/images/mobile-image-hero-1.jpg");
   background-position: top;
@@ -36,6 +50,17 @@ a {
   width: 100%;
   height: 60vh;
   position: relative;
+}
+
+@media (min-width: 1025px) {
+  .product-narration .hero {
+    background-image: url("/images/desktop-image-hero-1.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 75vh;
+  }
 }
 
 .product-narration .hero .desktop-nav {
@@ -53,9 +78,21 @@ a {
   display: none;
 }
 
+@media (min-width: 1025px) {
+  .product-narration .hero .desktop-nav {
+    display: block;
+  }
+}
+
 .product-narration .hero .desktop-nav .humberger {
   cursor: pointer;
   width: 20%;
+}
+
+@media (min-width: 1025px) {
+  .product-narration .hero .desktop-nav .humberger {
+    display: none;
+  }
 }
 
 .product-narration .hero .desktop-nav .logo {
@@ -68,6 +105,12 @@ a {
 
 .product-narration .hero .desktop-nav .desktop-ul {
   display: none;
+}
+
+@media (min-width: 1025px) {
+  .product-narration .hero .desktop-nav .desktop-ul {
+    display: block;
+  }
 }
 
 .product-narration .hero .mobile-nav {
@@ -87,6 +130,12 @@ a {
   overflow-y: hidden;
   -webkit-transition: height 0.7s ease;
   transition: height 0.7s ease;
+}
+
+@media (min-width: 1025px) {
+  .product-narration .hero .mobile-nav {
+    display: none;
+  }
 }
 
 .product-narration .hero .mobile-nav ul {
@@ -122,23 +171,46 @@ a {
   background-color: black;
 }
 
+@media (min-width: 1025px) {
+  .product-narration .hero .narration-nav {
+    padding: 17px;
+    right: -125px;
+  }
+}
+
 .product-narration .hero .narration-nav span {
   display: inline-block;
   margin: 0 15px;
   cursor: pointer;
 }
 
-.narration {
+.product-narration .narration {
   padding: 40px;
   text-align: left;
 }
 
-.narration h1 {
+@media (min-width: 1025px) {
+  .product-narration .narration {
+    width: 45%;
+    padding: 0 70px;
+    position: relative;
+  }
+}
+
+.product-narration .narration h1 {
   width: 100%;
   font-size: 25px;
 }
 
-.narration p {
+@media (min-width: 1025px) {
+  .product-narration .narration h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+  }
+}
+
+.product-narration .narration p {
   width: 100%;
   margin-top: 20px;
   font-size: 13px;
@@ -146,7 +218,7 @@ a {
   color: #a1a1a1;
 }
 
-.narration .shop-now {
+.product-narration .narration .shop-now {
   display: inline-block;
   width: 100%;
   font-size: 14px;
@@ -156,6 +228,13 @@ a {
   padding: 5px 0;
   color: #454545;
   cursor: pointer;
+}
+
+@media (min-width: 1025px) {
+  .product-narration .narration .shop-now {
+    font-size: 13px;
+    margin-top: 25px;
+  }
 }
 
 .abt .abt-preview {
