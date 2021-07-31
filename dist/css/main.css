@@ -24,6 +24,13 @@ a {
   color: inherit;
 }
 
+@media (min-width: 1025px) {
+  main {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
 .product-narration {
   width: 100%;
 }
@@ -83,6 +90,7 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-left: 60px;
   }
 }
 
@@ -123,6 +131,13 @@ a {
     list-style: none;
     width: 100%;
   }
+}
+
+.product-narration .hero .desktop-nav .desktop-ul li {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-transform: lowercase;
 }
 
 .product-narration .hero .mobile-nav {
@@ -249,6 +264,20 @@ a {
   }
 }
 
+@media (min-width: 1025px) {
+  .abt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
 .abt .abt-preview {
   background-image: url("/images/image-about-dark.jpg");
   background-repeat: no-repeat;
@@ -262,6 +291,13 @@ a {
   text-align: left;
 }
 
+@media (min-width: 1025px) {
+  .abt .abt-article {
+    padding: 0  60px;
+    width: 120%;
+  }
+}
+
 .abt .abt-article h2 {
   font-size: 15px;
   font-weight: 600;
@@ -269,11 +305,24 @@ a {
   letter-spacing: 5px;
 }
 
+@media (min-width: 1025px) {
+  .abt .abt-article h2 {
+    font-size: 14px;
+    font-weight: 800;
+  }
+}
+
 .abt .abt-article p {
   margin-top: 15px;
   font-size: 13px;
   line-height: 1.5;
   color: #a1a1a1;
+}
+
+@media (min-width: 1025px) {
+  .abt .abt-article p {
+    font-size: 12px;
+  }
 }
 
 .abt .abt-white {
