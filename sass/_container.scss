@@ -41,7 +41,7 @@ main {
             display: none;
 
             @include breakpoint-up (tablet-pro) {
-                display: none;
+                display: flex;
             }
 
             @include breakpoint-up (desktop) {
@@ -52,6 +52,10 @@ main {
             .humberger {
                 cursor: pointer;
                 width: 20%;
+
+                @include breakpoint-up (tablet-pro) {
+                    display: none;
+                }
 
                 @include breakpoint-up (desktop) {
                     display: none;
@@ -64,10 +68,21 @@ main {
                 text-transform: lowercase;
                 color: $white;
                 width: 50%;
+
+                @include breakpoint-up (tablet-pro) {
+                    font-size: 32px;
+                    margin-left: 30px;
+                }
             }
 
             .desktop-ul{
                 display: none;
+
+                @include breakpoint-up (tablet-pro) {
+                    @include flex-evenly;
+                    list-style: none;
+                    width: 100%;
+                }
 
                 @include breakpoint-up (desktop) {
                     @include flex-evenly;
@@ -80,6 +95,10 @@ main {
                     font-weight: 700;
                     color: $white;
                     text-transform: lowercase;
+
+                    @include breakpoint-up (tablet-pro) {
+                        font-size: 18px;
+                    }
                 }
             }
         }
