@@ -16,3 +16,25 @@ close.addEventListener("click", function () {
     navMobile.classlisy.add("drop-nav");
 });
 
+showNarration(currentNarration);
+
+function showNarration(x) {
+    narration[x].style.display = "block"
+};
+
+function prevNext(x) {
+    narration[currentNarration].style.display = "none";
+
+    currentNarration = currentNarration + x;
+
+    if (currentNarration >= narration.length) {
+        currentNarration = 0;
+    }
+    else if (currentNarration < 0) {
+        currentNarration = narration.length - 1;
+    }
+
+    if (window.screen.availWidth <= 540) {
+        hero.style.backgroundImage = 
+    }
+}
