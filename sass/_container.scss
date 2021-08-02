@@ -1,6 +1,5 @@
 main {
     @include breakpoint-up (desktop) {
-        max-width: 1440px;
         margin: auto;
     }
 }
