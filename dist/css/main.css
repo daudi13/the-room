@@ -446,4 +446,12 @@ a {
     height: 550px;
   }
 }
+
+.drop-nav {
+  height: 100px;
+}
+
+.close-nav {
+  opacity: 0;
+}
 /*# sourceMappingURL=main.css.map */
