@@ -6,14 +6,14 @@ const hero = document.querySelector(".hero");
 
 let currentNarration = 0;
 
-hamburger.addEventListener("click", function () {
+hamberger.addEventListener("click", function () {
     navMobile.classList.add("drop-nav");
     navMobile.classList.remove("drop-nav");
 });
 
 close.addEventListener("click", function () {
-    navMobile.classlisy.remove("drop-nav");
-    navMobile.classlisy.add("drop-nav");
+    navMobile.classList.remove("drop-nav");
+    navMobile.classList.add("drop-nav");
 });
 
 showNarration(currentNarration);
@@ -35,6 +35,16 @@ function prevNext(x) {
     }
 
     if (window.screen.availWidth <= 540) {
-        hero.style.backgroundImage = 
+        hero.style.backgroundImage = `url("/images/moblie-image-hero-${currentNarration + 1}.jpg")`;
     }
+
+    else if (window.screen.availWidth > 540) {
+        hero.style.backgroundImage = `url("/images/desktop-image-hero-${currentNarration + 1}.jpg")`;
+    }
+
+    narration[currentNarration].style.display = "block";
+
+    showNarration(currentNarration);
+
+
 }
