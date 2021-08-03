@@ -1,4 +1,4 @@
-const hambuger = document.querySelector(".hamberger");
+const hambuger = document.querySelector(".humberger");
 const close = document.querySelector(".close");
 const mobileNav = document.querySelector(".mobile-nav");
 const narration = document.querySelectorAll(".narration");
