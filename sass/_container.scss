@@ -6,8 +6,6 @@ main {
 .product-narration {
     width: 100%;
 
-    
-
     @include breakpoint-up (desktop) {
         @include flex-between;
 
@@ -69,6 +67,7 @@ main {
                 width: 50%;
 
                 @include breakpoint-up (tablet-pro) {
+                    
                     font-size: 32px;
                     margin-left: 30px;
                 }
